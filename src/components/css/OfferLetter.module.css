@@ -1,0 +1,83 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div
+{
+    background-color: rgb(21,147,146);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container
+{
+    /* border: 2px solid yellow; */
+    width: 85%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 5px rgb(149, 148, 148);
+}
+.suvidha_image
+{
+    /* border: 2px solid red; */
+    width: 45%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.543),rgba(0, 0, 0, 0.543)), url("../images/about.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border-radius: 20px; */
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+.suvidha_text
+{
+    width: 55%;
+    /* margin-left: 20px; */
+    padding: 70px;
+    
+}
+.suvidha_text img
+{
+    width: 100%;
+    height: 100px;
+    /* margin-left: -150px; */
+}
+
+.suvidha_text input
+{
+    background-color: rgb(225, 213, 213);
+    border: none;
+    outline: none;
+    gap: 10px;
+    margin-top: 20px;
+    height: 20px;
+}
+.suvidha_text button
+{
+    width: 200px;
+    height: 25px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    font-size: large;
+    font-weight: 500;
+    border: none;
+}
+.suvidha_text h2
+{
+    font-style: italic;
+    font-family: serif;
+    text-decoration: underline;
+    text-align: center;
+}
